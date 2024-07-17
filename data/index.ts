@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Working on my problem solving skills",
+    description: "Current status",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,27 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "AI Image SaaS - Imagenie",
+    des: "A ReaL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/Home1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://imagenie-kappa.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "WeConnect - Social Media",
+    des: "A one-stop platform for creating communitites and clubs together, fostering a collaboration among college students.",
+    img: "/Weconnect.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    link: "https://we-connect-six.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "AuroraAI - Generative AI",
+    des: "The best all-in-one AI tool wshich can do code, music, image, video generation and can work as chatbot.",
+    img: "/Aurora.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://aurora-lake.vercel.app/",
   },
   {
     id: 4,
@@ -174,7 +174,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Full Stack Developer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Developed and deployed a comprehensive web application using MERN stack, implemented report generation features, significantly reducing faculty workload by 60% benefiting over 400+ users.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
